@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-boot-kafka
+  kafka:
+    bootstrap-servers: 0.0.0.0:9092
+    consumer:
+      group-id: my-group-id
+server:
+  port: 8082
